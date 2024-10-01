@@ -95,8 +95,4 @@ class QQNumberInfo:
         return []
 
 
-if __name__ == '__main__':
-    # 使用示例
-    qq_info = QQNumberInfo("regions.json", 3507557934)
-    id_card_regions = qq_info.get_id_card_regions()
-    print(id_card_regions)
+
